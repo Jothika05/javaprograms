@@ -8,7 +8,7 @@ public class sumofnumarr {
       int n = sc.nextInt();   
       int c[]=new int[10];
       int sum=0;
-      for(int i=0;i<=n;i++) { 
+      for(int i=0;i<n;i++) { 
     	  System.out.println("Enter the number : ");
     	   c[i]= sc.nextInt();
     	  sum +=c[i];
