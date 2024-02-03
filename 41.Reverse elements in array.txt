@@ -1,0 +1,27 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+           int arr[]={5,8,9,4,0};
+           
+           int start =0;
+           int last = arr.length-1;
+           int temp =0;
+           while(start<last){
+               temp = arr[start];
+               arr[start] = arr[last];
+               arr[last] = temp;
+               
+               start++;
+               last--;
+           }
+           System.out.println(Arrays.toString(arr));
+	}
+}

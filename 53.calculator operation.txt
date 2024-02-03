@@ -1,0 +1,49 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+         Scanner sc = new  Scanner(System.in);
+         
+         System.out.println("Enter the first Number");
+         int firstnum = sc.nextInt();
+        
+         
+         System.out.println("Enter the Second Number");
+         int secondnum = sc.nextInt();
+         
+          
+         System.out.println("Choose the operator : +,-,%,/");
+         char symbol = sc.next().charAt(0);
+         int result =0;
+         boolean status=true;
+         switch(symbol){
+             
+             case '+': result=firstnum+secondnum;
+             break;
+             
+              case '-': result=firstnum-secondnum;
+             break;
+             
+              case '%': result=firstnum%secondnum;
+             break;
+             
+              case '/': result=firstnum/secondnum;
+             break;
+             
+             default: System.out.println("You choose the wrong symbol");
+             status=false;
+             
+         }
+         if(status){
+             System.out.println(firstnum+" "+ symbol+ " "+ secondnum+" = "+ result);
+         }
+         
+	}
+}

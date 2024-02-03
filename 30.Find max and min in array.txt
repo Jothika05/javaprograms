@@ -1,0 +1,42 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
+/*Java Program to find the missing element*/
+import java.util.*;  
+import java.util.Arrays; 
+
+//Driver Code
+public class Main  
+{  
+   public static void main(String args[])   
+   {  
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter the size of Array");
+       int size=sc.nextInt();
+       
+       int[] a= new int[size];
+       
+       for(int i=0;i<a.length;i++){
+           a[i]=sc.nextInt();
+       }
+       int max=a[0];
+       int min=a[0];
+       
+       for(int i=0;i<a.length;i++){
+           if(max<a[i]){
+               max=a[i];
+           }
+       if(min>a[i]){
+           min=a[i];
+       }
+       }
+       System.out.println("Maximum number is "+ max);
+           System.out.println("Minimum number is "+ min);
+   }
+}
+

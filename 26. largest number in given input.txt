@@ -1,0 +1,31 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("enter the number");
+      int a=sc.nextInt();
+      System.out.println("enter the number");
+      int b=sc.nextInt();
+      System.out.println("enter the number");
+      int c=sc.nextInt();
+      
+      if(a>b && a>c){
+          System.out.println(a+"is Largest number");
+          
+      }
+      else if(b>c){
+          System.out.println(b+"is Largest number");
+      }
+      else{
+           System.out.println(c+"is Largest number");
+      }
+	}
+}

@@ -1,0 +1,28 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("Enter the number");
+	    int Number = sc.nextInt();
+	    
+	    int sum =0;
+	    while(Number!=0){
+	        int rem = Number%10;
+	        sum+=rem;
+	        Number = Number/10;
+	        
+	    }
+	    System.out.println(sum);
+	}
+}
+
+// square of the given number is (num*num)
+// cube of the given number is (num*num*num)

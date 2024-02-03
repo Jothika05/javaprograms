@@ -1,0 +1,53 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		String str = "madam";
+		char[] ca = str.toCharArray();
+		char givenchar='a';
+		int count=0;
+	for(int i=0;i<ca.length;i++){
+	    if(givenchar==ca[i]){
+	        count++;
+	    }
+	}
+	System.out.println(count);
+	}
+}
+
+
+for each loop
+
+
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		String str = "madam";
+		char[] ca = str.toCharArray();
+		char givenchar='a';
+		int count=0;
+		for(char c : ca){
+		    if(c==givenchar){
+		        count++;
+		    }
+		}
+		System.out.println(count);
+	}
+
+	}
+

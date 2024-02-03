@@ -1,0 +1,22 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+      int [] a={7,8,4,3,7,8};
+      
+      HashSet<Integer> hs =  new HashSet<Integer>();
+      for(int i=0;i<a.length;i++){
+          if(hs.add(a[i])==false){
+            System.out.println(a[i] +" is duplicate array");
+          }
+      }
+        
+	}
+}

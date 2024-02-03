@@ -1,0 +1,36 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter the String :");
+            String str = sc.nextLine();
+            char[] ca = str.toCharArray();
+            int Digit=0;
+            int Letter=0;
+            int Space=0;
+            int others=0;
+            for(Character c : ca){
+                if(Character.isDigit(c)){
+                    Digit++;
+                }
+                else if(Character.isLetter(c)){
+                    Letter++;
+                }
+                else if(Character.isSpaceChar(c)){
+                    Space++;
+                }
+                else{
+                    others++;
+                }
+            }
+            System.out.println("Digit is "+ Digit +" Space is "+ Space + "Letter is "+ Letter +" Others is "+ others);
+	}
+}

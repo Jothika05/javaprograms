@@ -1,0 +1,70 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+   int[] a ={10,20,20,30,30,40,50,60,60,70};
+   int j=0;
+   for (int i=0;i<a.length-1;i++){
+       if(a[i]!=a[i+1]){
+           a[j]=a[i];
+           j++;
+       }
+       
+   }
+   a[j]=a[a.length-1];
+	for(int k=0;k<=j;k++){
+	    System.out.print(a[k]+" ");
+	}
+	}
+}
+
+
+
+
+
+
+
+/*
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+  Scanner sc = new Scanner(System.in);
+   System.out.println("ENter the Size of array");
+   int size = sc.nextInt();
+   int[] a = new int[size];
+      System.out.println("ENter the elements");
+      for(int i=0;i<size;i++){
+          a[i]=sc.nextInt();
+      }
+      
+   int j=0;
+   for (int i=0;i<a.length-1;i++){
+       if(a[i]!=a[i+1]){
+           a[j]=a[i];
+           j++;
+       }
+       
+   }
+   a[j]=a[a.length-1];
+	for(int k=0;k<=j;k++){
+	    System.out.print(a[k]+" ");
+	}
+	}
+}
+
+*/

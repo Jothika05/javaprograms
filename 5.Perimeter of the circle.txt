@@ -1,0 +1,22 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Radius");
+		double Radius = sc.nextDouble();
+		System.out.println("Perimeter of the circle is "+ (2*Math.PI*Radius));
+		
+	}
+}
+
+
+// perimeter of the rectangle is 2*(height*width)
+// area of the rec is height*width

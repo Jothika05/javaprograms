@@ -1,0 +1,25 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+          int[] a={1,2,3,4,5};
+          
+          int size = a.length;
+          
+          int temp = a[0];
+          
+          a[0] = a[size-1];
+          
+          a[size-1] = temp;
+          
+          System.out.println(Arrays.toString(a));
+          
+	}
+}

@@ -1,0 +1,29 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter the String");
+       String orgstr = sc.nextLine();
+       char[]  ca = orgstr.toCharArray();
+       int size = ca.length;
+       String revString = "";
+       for(int i=size-1;i>=0;i--){
+           revString=revString+ca[i];
+           
+           
+       }
+       if(orgstr.equals(revString)){
+           System.out.println("Is Palidrome");
+       }else{
+           System.out.println("Is not a Palidrome");
+       }
+	}
+}
