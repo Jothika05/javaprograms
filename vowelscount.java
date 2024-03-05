@@ -50,3 +50,34 @@ public class vowelscount {
    
    
  */
+/*
+import java.util.Scanner;
+
+public class VowelsCount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+        System.out.println("ENter the String");
+        String str = sc.nextLine();
+        char chars[] = str.toCharArray();
+        int count =0;
+        for (char c : chars) {
+			
+        	switch(c){
+        	case 'a':
+        	case 'e':
+        	case 'i':
+        	case 'o':
+        	case 'u':
+        	    count++;
+        	    break;
+        	}
+		}
+        System.out.println("Number of vowels in String is "+ count);
+	}
+
+}
+
+*/
