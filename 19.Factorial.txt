@@ -12,3 +12,19 @@ public class Main
 
 	}
 }
+-------------------------------------
+import java.math.BigInteger;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    int num =30;
+	    BigInteger fac = BigInteger.ONE;
+	    
+	    for(int i=1;i<=num;i++){
+	        fac = fac.multiply(BigInteger.valueOf(i));	    }
+	    System.out.println(fac);
+
+	}
+}
