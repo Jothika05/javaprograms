@@ -15,17 +15,17 @@ public class Main
             int a=1;
             int b=1;
             System.out.print(a + " "); // Prints: 1
-System.out.print(b + " "); // Prints: 1
-int f = 0;
-while (f <= Number) {
-    f = a + b; // f = 1 + 1 = 2
-    if (f > Number)
-        break;
-    System.out.print(f + " "); // Prints: 2
-    a = b; // a = 1
-    b = f; // b = 2
-    // Next iteration: f = 1 + 2 = 3, which is less than or equal to Number, so the loop continues.
-}
+            System.out.print(b + " "); // Prints: 1
+            int f = 0;
+            while (f <= Number) {
+              f = a + b; // f = 1 + 1 = 2
+                if (f > Number)
+                 break;
+             System.out.print(f + " "); // Prints: 2
+            a = b; // a = 1
+            b = f; // b = 2
+           // Next iteration: f = 1 + 2 = 3, which is less than or equal to Number, so the loop continues.
+         }
                 
             }
             
