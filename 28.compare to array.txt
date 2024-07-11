@@ -20,21 +20,19 @@ public class Main
 	    for(int i=0;i<a.length;i++){
 	        if(a[i]!=b[i]){
 	            compare =false;
+                    break;
 	        }
 	    }
 	   
-	    
 	}
-	 else{
+	else{
 	        compare =false;
-	    }
+        }
 	if(compare){
 	  System.out.println("Arrays are equal");
 	}
 	else{
 	    	System.out.println("Arrays are not equal");
 	}
-
-		
-	}
+}
 }
